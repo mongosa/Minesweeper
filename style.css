@@ -1,0 +1,45 @@
+body{
+    background-color:#271b42 ;
+    color: #ddd;
+    font-family: courier;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 14px;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+#grid{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grid tr td{
+    border: 1px solid #462aad;
+    background-color: #736986;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+#grid tr td.activate{
+    background-color: #333;
+}
+
+#grid tr td.mine{
+    background-color: #b89e10;
+}
+
+button{
+    margin: 12px 0;
+    padding:  5px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
